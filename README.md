@@ -10,3 +10,5 @@ Program illustrating how arrays are passed as actual parameters in a function ca
 Program illustrating how to use a sequential search in a program.
 ## CH08EX09
 Program illustrating how to use a selection sort in a program.
+## CH08EX11
+Program illustrating how two-dimensional arrays are passed as parameters to functions.
