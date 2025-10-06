@@ -7,12 +7,6 @@
 #include <list>
 
 using namespace std;
-int main()
-{
-    list<int> numbers = {1, };
-    initializeArray(numbers, numbers.size);
-    return 0;
-}
 
 void initializeArray(int list[], int listSize)
 {
@@ -88,3 +82,19 @@ void copyArray(int list1[], int src, int list2[], int tar, int numOfElements)
             tar++;
         }
     }
+
+/* This is additional code added to call each function.*/
+int main()
+{
+    int length = 5;
+    int numbers[length];
+    int numbers2[length];
+
+    initializeArray(numbers,length);
+    fillArray(numbers, length);
+    printArray(numbers, length);
+    sumArray(numbers,length);
+    indexLargestElement(numbers,length);
+    copyArray(numbers, 0, numbers2, 2,1);
+    return 0;
+}
