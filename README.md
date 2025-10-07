@@ -16,4 +16,5 @@ Program illustrating how two-dimensional arrays are passed as parameters to func
 Program to check whether an encoded message is error-free.  See codeDetectionReadMe.md for more info.  
 Use **code.txt** and **code2.txt** to test this code.
 ## textProcessing
-Program that reads a given text, outputs the text and prints the number of times each letter appears in the text.  See textProcessingReadMe.md for more info.
+Program that reads a given text, outputs the text and prints the number of times each letter appears in the text.  See textProcessingReadMe.md for more info.  
+Feel free to change the test in **textin.txt** or delete the text in **textout.out** before you run the program so you can see the changes.
